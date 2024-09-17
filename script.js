@@ -16,7 +16,7 @@ fetch(video_http + new URLSearchParams({
     key: api_key,
     part: 'snippet',
     chart: 'mostPopular',
-    maxResults: 20,
+    maxResults: 2000,
     regionCode: 'US'
 }))
 .then(res => res.json())
