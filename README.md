@@ -118,7 +118,7 @@ Here are some screenshots of the project:
   ![Screenshot of Home Page](./Images/Screenshot(Home).png)
 
 - **Sidebar Expanded**
-  ![Screenshot of Sidebar](./Images/Screenshot(Home).png)
+  ![Screenshot of Sidebar](./Images/Screenshot(Sidebar).png)
 
 *(Replace the paths with actual paths to your screenshots)*
 
