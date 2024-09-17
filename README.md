@@ -115,16 +115,16 @@ youtube-clone/
 Here are some screenshots of the project:
 
 - **Home Page with Video Cards**
-  ![Screenshot of Home Page](./screenshots/home-page.png)
+  ![Screenshot of Home Page](./Images/Screenshot(Home).png)
 
 - **Sidebar Expanded**
-  ![Screenshot of Sidebar](./screenshots/sidebar-expanded.png)
+  ![Screenshot of Sidebar](./Images/Screenshot(Home).png)
 
 *(Replace the paths with actual paths to your screenshots)*
 
 ## Project Preview
 
-You can check out a live preview of the project [here](https://your-deployed-project-url.com).
+You can check out a live preview of the project [here](https://ravigitacc87.github.io/Youtube-With-Api/).
 
 **Main Features**:
 - View most popular videos.
