@@ -4,6 +4,24 @@ var mainContainer = document.querySelector(".maincontainer");
 var cards = document.querySelector(".card"); 
 var smcards = document.querySelector("#card"); 
 
+menuIcon.onclick = function() {
+    sidebar.classList.toggle("smaller-sidebar");
+    mainContainer.classList.toggle("larger-maincontainer");
+  
+    var firstCard = document.querySelector(".card"); 
+    var firstInfo = document.querySelector(".video-information"); 
+
+    if (firstCard) {
+        firstCard.classList.toggle("smaller-card");
+    }
+
+    if (firstInfo) {
+        firstInfo.classList.add("video-information-smaller");
+        firstInfo.classList.remove("video-information");
+    }
+};
+  
+
 let api_key = "AIzaSyCw4wGNI7tm8lgmqMgKsJn8HVQeXmYWoS8";
 let video_http = "https://www.googleapis.com/youtube/v3/videos?";
 let channel_http = "https://www.googleapis.com/youtube/v3/channels?";
@@ -63,20 +81,4 @@ const makeVideoCard = (data) => {
             }
         })
 
-        menuIcon.onclick = function() {
-            sidebar.classList.toggle("smaller-sidebar");
-            mainContainer.classList.toggle("larger-maincontainer");
-          
-            var firstCard = document.querySelector(".card"); 
-            var firstInfo = document.querySelector(".video-information"); 
-        
-            if (firstCard) {
-                firstCard.classList.toggle("smaller-card");
-            }
-        
-            if (firstInfo) {
-                firstInfo.classList.add("video-information-smaller");
-                firstInfo.classList.remove("video-information");
-            }
-        };
-          
+      
