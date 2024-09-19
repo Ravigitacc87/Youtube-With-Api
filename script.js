@@ -4,7 +4,7 @@ var mainContainer = document.querySelector(".maincontainer");
 var cards = document.querySelector(".card"); 
 var smcards = document.querySelector("#card"); 
 
-let api_key = "AIzaSyAnHZ2g5gRFyYX2EYMJFeOeY-ajuYRkx-o";
+let api_key = "AIzaSyCw4wGNI7tm8lgmqMgKsJn8HVQeXmYWoS8";
 let video_http = "https://www.googleapis.com/youtube/v3/videos?";
 let channel_http = "https://www.googleapis.com/youtube/v3/channels?";
 const searchInput = document.querySelector('.search-input');
@@ -16,8 +16,8 @@ fetch(video_http + new URLSearchParams({
     key: api_key,
     part: 'snippet',
     chart: 'mostPopular',
-    maxResults: 2000,
-    regionCode: 'US'
+    maxResults: 200,
+    regionCode: 'IN'
 }))
 .then(res => res.json())
 .then(data => {
