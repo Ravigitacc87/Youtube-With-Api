@@ -120,7 +120,6 @@ Here are some screenshots of the project:
 - **Sidebar Expanded**
   ![Screenshot of Sidebar](./Images/Screenshot(Sidebar).png)
 
-*(Replace the paths with actual paths to your screenshots)*
 
 ## Project Preview
 
