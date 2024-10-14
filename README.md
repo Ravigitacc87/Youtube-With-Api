@@ -17,6 +17,28 @@ This is a YouTube clone built using **HTML**, **CSS**, **JavaScript**, and **You
 - **JavaScript (ES6)**
 - **YouTube Data API v3**
 
+## Screenshots
+
+Here are some screenshots of the project:
+
+- **Home Page with Video Cards**
+  ![Screenshot of Home Page](./Images/Screenshot(Home).png)
+
+- **Sidebar Expanded**
+  ![Screenshot of Sidebar](./Images/Screenshot(Sidebar).png)
+
+
+## Project Preview
+
+You can check out a live preview of the project [here](https://ravigitacc87.github.io/Youtube-With-Api/).
+
+**Main Features**:
+- View most popular videos.
+- Sidebar toggle with animation.
+- Scroll to load more videos with a loader.
+
+*(Make sure to replace the link with your live demo URL if applicable)*
+
 ## Installation
 
 To run this project locally, follow these steps:
@@ -109,28 +131,6 @@ youtube-clone/
 ├── README.md           # Project documentation
 └── assets/             # Images, fonts, etc.
 ```
-
-## Screenshots
-
-Here are some screenshots of the project:
-
-- **Home Page with Video Cards**
-  ![Screenshot of Home Page](./Images/Screenshot(Home).png)
-
-- **Sidebar Expanded**
-  ![Screenshot of Sidebar](./Images/Screenshot(Sidebar).png)
-
-
-## Project Preview
-
-You can check out a live preview of the project [here](https://ravigitacc87.github.io/Youtube-With-Api/).
-
-**Main Features**:
-- View most popular videos.
-- Sidebar toggle with animation.
-- Scroll to load more videos with a loader.
-
-*(Make sure to replace the link with your live demo URL if applicable)*
 
 ## Future Enhancements
 
